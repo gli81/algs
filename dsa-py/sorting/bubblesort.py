@@ -3,6 +3,16 @@
 from typing import List
 
 def bubbleSort(lst: "List[int]") -> "None":
+    '''
+    sort a list of numbers using bubble sort
+
+    Params
+    ----------
+        lst List[int]: the list to be sorted
+
+    Returns
+        None: the list is sorted in place
+    '''
     n = len(lst)
     for i in range(n - 1):
         for j in range(n - i - 1):
@@ -20,3 +30,4 @@ if __name__ == "__main__":
     test3 = []
     bubbleSort(test3)
     print(test3)
+
