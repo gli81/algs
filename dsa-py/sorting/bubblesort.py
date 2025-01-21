@@ -11,6 +11,7 @@ def bubbleSort(lst: "List[int]") -> "None":
         lst List[int]: the list to be sorted
 
     Returns
+    ----------
         None: the list is sorted in place
     '''
     n = len(lst)
